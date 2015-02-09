@@ -11,3 +11,9 @@
  Tags:         -
  Text Domain:  -
 */
+
+.header-top { 
+	background: url('img/pic-header1.jpg') repeat 0 0 ; 
+	position: relative; 
+	height: 268px;
+}

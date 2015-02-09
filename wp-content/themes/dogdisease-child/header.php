@@ -1,12 +1,3 @@
-<?php 
-
-/**
- * Template Name: Blank
- *
- *
- */
-?>
-
 <!DOCTYPE html>
 <!--[if IE 8]>    <html class="ie8" <?php language_attributes(); ?>> <![endif]-->
 <!--[if IE 9]>    <html class="ie9" <?php language_attributes(); ?>> <![endif]-->
@@ -24,6 +15,10 @@
 
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+<link href='http://fonts.googleapis.com/css?family=Arvo:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,700' rel='stylesheet' type='text/css'>
+
 
 <?php wp_head(); ?>
 
@@ -46,7 +41,7 @@
 			
 				<div class="container">
 					<?php tokokoo_site_title();?>
-						
+
 				</div><!-- .container -->
 			</div><!-- End .header-top -->
 
@@ -56,22 +51,19 @@
 				</div><!-- End .container -->
 			</div><!-- End .access-wrap -->
 			
+			<?php get_template_part( 'content', 'slider' ); ?>
+
+			<div class="header-bottom">
+
+				<?php get_template_part( 'loop', 'meta' );?>
+
+				<?php if ( class_exists( 'woocommerce' ) ) : ?>
+					<?php get_template_part( 'searchform', 'featured' ); ?>
+				<?php endif; ?>	
+
+			</div><!-- End header-bottom -->
+
 		</header><!-- End #masthead -->
 
 		<div class="site-main" id="main">
-			
 			<div class="container">
-
-				<?php if ( have_posts() ) : ?>
-
-					<?php while ( have_posts() ) : the_post(); ?>
-
-						<?php the_content(); ?>
-
-					<?php endwhile; ?>
-
-				<?php endif; ?>
-
-<?php get_footer(); // Loads the footer.php template. ?>
-	
-	
