@@ -1,0 +1,135 @@
+/*
+ Theme Name:   Dentistry - Child Theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  -
+ Author:       -
+ Author URI:   -
+ Template:     disaster
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         -
+ Text Domain:  -
+*/
+
+body { background: white url('img/bg1.jpg') repeat fixed 0 0; }
+
+h3 {
+	font-size: 1.4em;
+}
+
+a, a:visited {
+	color: #cf8d00;
+}
+
+a:hover {
+	color: #928372;
+}
+
+.header-top { 
+	background: url('img/pic-header1.jpg') repeat 0 0 ; 
+	position: relative; 
+	height: 268px;
+}
+
+.container {
+	padding: 0 40px;
+}
+
+.home .content {
+  float: none;
+  width: 100%;
+  margin: 0 auto 30px;
+  max-width: 800px;
+}
+
+.home h2 {
+	margin-bottom: 20px;
+	color: #4590cb;
+	border-bottom: 4px solid #4590cb;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.home .resources {
+  float: none;
+  width: 100%;
+}
+
+.home .resources .col {
+	box-sizing: border-box;
+	width: 33%;
+	padding-right: 40px;
+	float: left;
+}
+
+.home .resources .col:last-child {
+	padding-right: 0;
+}
+
+.access-wrap {
+	background: #efd6a1;
+}
+
+.access-wrap .container {
+	padding: 0 22px;
+}
+
+#access .menu a, #access .menu a:link {
+	color: #a4823c;
+	font-size: 1.5rem;
+}
+
+#access .current_page_item a, #access .current_page_item a:link {
+	color: #524e45 !important;
+}
+
+.bullet, .bullet li {
+	list-style: none;
+}
+
+.bullet span {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	display: inline-block;
+  padding: 8px;
+  background: #4590cb;
+  color: white;
+  line-height: .4em;
+  margin-right: 9px;
+}
+
+.home .resources a {
+	padding: 12px 20px;
+  margin-bottom: 12px;
+  float: left;
+  border-radius: 30px;
+  background: #f1c76e;
+  color: #685b4d;
+}
+
+.home .resources a:hover {
+	color: #928372;
+	background: #edd8aa;
+}
+
+.subfooter {
+	margin-top: 30px;
+	color: #bdd6e9;
+}
+
+.subfooter a {
+	color: #f1c76e;
+}
+
+.subfooter a:hover {
+	color: #695b4d;
+}
+
+
+
+
+

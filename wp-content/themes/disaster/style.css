@@ -546,7 +546,7 @@ embed, iframe, object { max-width: 100%; width: 100%; }
 	$NAVIGATIONS
 \*------------------------------------*/
 .access-wrap { 
-	background: #eee5db !important; 
+	background: #eee5db; 
 	-webkit-box-shadow: 0 2px 3px #cba987; 
 	-moz-box-shadow: 0 2px 3px #cba987; 
 	box-shadow: 0 2px 3px #cba987; 
