@@ -2092,7 +2092,7 @@ FOOTER STYLES
   line-height: 1.1em;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 825px) {
   .featured-list {
     width: 300px;
     padding: 100px 20px;
@@ -2121,13 +2121,19 @@ FOOTER STYLES
   text-decoration: none;
   font-weight: 300;
   font-size: 1.3em;
-  padding: 10px 30px;
+  padding: 7px 20px;
   margin-bottom: 20px;
   display: block;
 }
 
 .main-list a:hover {
   color: white;
+}
+
+@media (min-width: 750px) {
+  .main-list a {
+    font-size: 1em;
+  }
 }
 
 .main-list a.type {
@@ -2158,7 +2164,7 @@ FOOTER STYLES
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 825px) {
   .main-list {
     background: none;
     height: 0;
@@ -2172,76 +2178,96 @@ FOOTER STYLES
     margin: 0;
   }
   .main-list #earthquake {
-    left: 60%;
-    top: 55px;
-  }
-  .main-list #drought {
-    left: 41.5%;
+    left: 42%;
     top: 40px;
   }
-  .main-list #disaster {
-    left: 23%;
+  .main-list #drought {
+    left: 31%;
     top: 50px;
   }
-  .main-list #tsunami {
-    left: 14%;
-    top: 130px;
+  .main-list #disaster {
+    left: 20%;
+    top: 68px;
   }
-  .main-list #typhoon {
-    left: 8%;
-    top: 205px;
+  .main-list #experience {
+    left: 13%;
+    top: 118px;
+  }
+  .main-list #tsunami {
+    left: 11%;
+    top: 169px;
   }
   .main-list #tornado {
-    left: 6%;
-    top: 280px;
+    left: 9%;
+    top: 221px;
   }
   .main-list #terror {
-    left: 10%;
-    top: 355px;
+    left: 9%;
+    top: 277px;
   }
   .main-list #hurricane {
-    left: 9%;
-    top: 435px;
-  }
-  .main-list #epidemic {
-    left: 7%;
-    top: 510px;
-  }
-  .main-list #emergency {
-    left: 22%;
-    top: 585px;
+    left: 8%;
+    top: 334px;
   }
   .main-list #flood {
-    left: 43%;
-    top: 600px;
+    left: 13%;
+    top: 388px;
   }
-  .main-list #year1990 {
-    left: 71%;
-    top: 130px;
+  .main-list #epidemic {
+    left: 6%;
+    top: 445px;
   }
-  .main-list #year2000 {
-    left: 77%;
-    top: 210px;
+  .main-list #emergency {
+    left: 17%;
+    top: 502px;
   }
-  .main-list #year2005 {
-    left: 82%;
-    top: 290px;
+  .main-list #primary {
+    left: 24%;
+    top: 556px;
+  }
+  .main-list #year1990-99 {
+    left: 55%;
+    top: 50px;
+  }
+  .main-list #year2000-2003 {
+    left: 66%;
+    top: 72px;
+  }
+  .main-list #year2004-2006 {
+    left: 75%;
+    top: 127px;
+  }
+  .main-list #year2007 {
+    left: 80%;
+    top: 190px;
+  }
+  .main-list #year2008 {
+    left: 83%;
+    top: 250px;
+  }
+  .main-list #year2009 {
+    left: 83%;
+    top: 312px;
   }
   .main-list #year2010 {
-    left: 82%;
-    top: 370px;
+    left: 81%;
+    top: 374px;
+  }
+  .main-list #year2011 {
+    left: 78%;
+    top: 437px;
   }
   .main-list #year2012 {
-    left: 78%;
-    top: 455px;
+    left: 73%;
+    top: 500px;
   }
   .main-list #year2013 {
-    left: 72%;
-    top: 538px;
+    left: 65%;
+    top: 553px;
   }
   .main-list #year2014 {
-    left: 58%;
-    top: 585px;
+    left: 56%;
+    top: 569px;
   }
 }
 
@@ -2250,7 +2276,7 @@ FOOTER STYLES
   padding-top: 30px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 825px) {
   .container-featured {
     padding-top: 150px;
   }
@@ -2260,7 +2286,7 @@ FOOTER STYLES
   display: none;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 825px) {
   #svgContainer {
     display: block;
     z-index: 1;
@@ -2554,9 +2580,6 @@ mobile. Make sure to double check these!
 			*/
   }
   /* end .footer-links */
-  .main-list a {
-    font-size: 1.2em;
-  }
 }
 
 /*********************

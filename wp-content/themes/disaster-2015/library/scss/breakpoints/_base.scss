@@ -970,7 +970,7 @@ FOOTER STYLES
 		text-transform: uppercase;
 		line-height: 1.1em;
 	}
-	@include bp(bp-medium) {
+	@include bp(bp-small3) {
 		width: 300px;
 		padding: 100px 20px;
 		border-radius: 300px;
@@ -994,11 +994,14 @@ FOOTER STYLES
 		text-decoration: none;
 		font-weight: 300;
 		font-size: 1.3em;
-		padding: 10px 30px;
+		padding: 7px 20px;
 		margin-bottom: 20px;
 		display: block;
 		&:hover {
 			color: white;
+		}
+		@include bp(bp-small2) {
+			font-size: 1em;
 		}
 	}
 	a.type {
@@ -1022,7 +1025,7 @@ FOOTER STYLES
 			font-size: 1em;
 		}
 	}
-	@include bp(bp-medium) {
+	@include bp(bp-small3) {
 		background: none;
 		height: 0;
 		li {
@@ -1034,76 +1037,96 @@ FOOTER STYLES
 			}
 		}
 		#earthquake {
-			left: 60%;
-			top: 55px;
-		}
-		#drought {
-			left: 41.5%;
+			left: 42%;
 			top: 40px;
 		}
-		#disaster {
-			left: 23%;
+		#drought {
+			left: 31%;
 			top: 50px;
 		}
-		#tsunami {
-			left: 14%;
-			top: 130px;
+		#disaster {
+			left: 20%;
+			top: 68px;
 		}
-		#typhoon {
-			left: 8%;
-			top: 205px;
+		#experience {
+			left: 13%;
+			top: 118px;
+		}
+		#tsunami {
+			left: 11%;
+			top: 169px;
 		}
 		#tornado {
-			left: 6%;
-			top: 280px;
+			left: 9%;
+			top: 221px;
 		}
 		#terror {
-			left: 10%;
-			top: 355px;
+			left: 9%;
+			top: 277px;
 		}
 		#hurricane {
-			left: 9%;
-			top: 435px;
-		}
-		#epidemic {
-			left: 7%;
-			top: 510px;
-		}
-		#emergency {
-			left: 22%;
-			top: 585px;
+			left: 8%;
+			top: 334px;
 		}
 		#flood {
-			left: 43%;
-			top: 600px;
+			left: 13%;
+			top: 388px;
 		}
-		#year1990 {
-			left: 71%;
-			top: 130px;
+		#epidemic {
+			left: 6%;
+			top: 445px;
 		}
-		#year2000 {
-			left: 77%;
-			top: 210px;
+		#emergency {
+			left: 17%;
+			top: 502px;
 		}
-		#year2005 {
-			left: 82%;
-			top: 290px;
+		#primary {
+			left: 24%;
+			top: 556px;
+		}
+		#year1990-99 {
+			left: 55%;
+			top: 50px;
+		}
+		#year2000-2003 {
+			left: 66%;
+			top: 72px;
+		}
+		#year2004-2006 {
+			left: 75%;
+			top: 127px;
+		}
+		#year2007 {
+			left: 80%;
+			top: 190px;
+		}
+		#year2008 {
+			left: 83%;
+			top: 250px;
+		}
+		#year2009 {
+			left: 83%;
+			top: 312px;
 		}
 		#year2010 {
-			left: 82%;
-			top: 370px;
+			left: 81%;
+			top: 374px;
+		}
+		#year2011 {
+			left: 78%;
+			top: 437px;
 		}
 		#year2012 {
-			left: 78%;
-			top: 455px;
+			left: 73%;
+			top: 500px;
 		}
 		#year2013 {
-			left: 72%;
-			top: 538px;
+			left: 65%;
+			top: 553px;
 		}
 		#year2014 {
-			left: 58%;
-			top: 585px;
+			left: 56%;
+			top: 569px;
 		}
 	}
 }
@@ -1111,13 +1134,13 @@ FOOTER STYLES
 .container-featured {
 	position: relative;
 	padding-top: 30px;
-	@include bp(bp-medium) {
+	@include bp(bp-small3) {
 		padding-top: 150px;
 	}
 }
 #svgContainer {
 	display: none;
-	@include bp(bp-medium) {
+	@include bp(bp-small3) {
 		display: block;
 		z-index: 1;
 		position: absolute;

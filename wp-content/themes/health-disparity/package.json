@@ -1,0 +1,16 @@
+{
+  "name": "cleanearth",
+  "description": "Disaster Research",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  }
+}

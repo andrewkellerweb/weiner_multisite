@@ -67,33 +67,32 @@
 
 								<div class="list">
 									<ul class="main-list col1" >
-										<li id="earthquake"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Earthquake Ideas Vocabulary">Earthquake</a></li>
-										<li id="drought"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Drought ideas vocabulary">Drought</a></li>
-										<li id="disaster"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Disaster Ideas Vocabulary">Disaster</a></li>
-										<li id="tsunami"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Expereince Ideas Vocabulary">Experience</a></li>
-										<li id="typhoon"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Tsunami  ideas vocabulary">Tsunami</a></li>
-										<li id="tornado"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Tornado Ideas Vocabulary">Tornado</a></li>
-										<li id="terror"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Terror Ideas Vocabulary">Terror</a></li>
-										<li id="hurricane"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Hurricane Ideas Vocabulary">Hurricane</a></li>
-										<li id="flood"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Flood Ideas Vocabulary">Flood</a></li>
-										<li id="epidemic"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Epidemic Pandemic ideas vocabulary">Epidemic/Pandemic</a></li>
-										<li id="emergency"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014  Emergency ideas vocabulary">Emergency</a></li>
+										<li id="earthquake"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Earthquake Ideas Vocabulary.xlsx">Earthquake</a></li>
+										<li id="drought"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Drought ideas vocabulary.xlsx">Drought</a></li>
+										<li id="disaster"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Disaster Ideas Vocabulary.xlsx">Disaster</a></li>
+										<li id="experience"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Expereince Ideas Vocabulary.xlsx">Experience</a></li>
+										<li id="tsunami"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Tsunami  ideas vocabulary.xlsx">Tsunami</a></li>
+										<li id="tornado"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Tornado Ideas Vocabulary.xlsx">Tornado</a></li>
+										<li id="terror"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Terror Ideas Vocabulary.xlsx">Terror</a></li>
+										<li id="hurricane"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Hurricane Ideas Vocabulary.xlsx">Hurricane</a></li>
+										<li id="flood"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Flood Ideas Vocabulary.xlsx">Flood</a></li>
+										<li id="epidemic"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Epidemic Pandemic ideas vocabulary.xlsx">Epidemic/Pandemic</a></li>
+										<li id="emergency"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014  Emergency ideas vocabulary.xlsx">Emergency</a></li>
+										<li id="primary"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-2014 Primary Vocabulary.xlsx">Primary Vocabulary</a></li>
 									</ul>
 
 									<ul class="main-list col2" >
-										<li id="year1990"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-99 ideas vocabulary">1990-99</a></li>
-										<li id="year1990"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2000-2003 ideas vocabulary">2000-2003</a></li>
-										<li id="year1990"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2004-2006 ideas vocabulary">2004</a></li>
-										<li id="year1990"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2007 ideas vocabulary">2007</a></li>
-										<li id="year1990"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2007-2009 ideas vocabulary.xlsx">2007-2009</a></li>
-										<li id="year1990"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2008 ideas vocabulary">2008</a></li>
-										<li id="year1990"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2009 ideas vocabulary">2009</a></li>
-										<li id="year2000"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2010 ideas vocabulary">2010</a></li>
-										<li id="year2005"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2010-2011 ideas vocabulary">2010-2011</a></li>
-										<li id="year2010"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2011 ideas vocabulary">2011</a></li>
-										<li id="year2012"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2012 ideas vocabulary">2012</a></li>
-										<li id="year2013"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2013 ideas vocabulary">2013</a></li>
-										<li id="year2014"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2014 ideas and vocabulary">2014</a></li>
+										<li id="year1990-99"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 1990-99 ideas vocabulary.xlsx">1990-99</a></li>
+										<li id="year2000-2003"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2000-2003 ideas vocabulary.xlsx">2000-2003</a></li>
+										<li id="year2004-2006"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2004-2006 ideas vocabulary.xlsx">2004-2006</a></li>
+										<li id="year2007"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2007 ideas vocabulary.xlsx">2007</a></li>
+										<li id="year2008"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2008 ideas vocabulary.xlsx">2008</a></li>
+										<li id="year2009"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2009 ideas vocabulary.xlsx">2009</a></li>
+										<li id="year2010"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2010 ideas vocabulary.xlsx">2010</a></li>
+										<li id="year2011"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2011 ideas vocabulary.xlsx">2011</a></li>
+										<li id="year2012"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2012 ideas vocabulary.xlsx">2012</a></li>
+										<li id="year2013"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2013 ideas vocabulary.xlsx">2013</a></li>
+										<li id="year2014"><a class="time" href="<?php bloginfo('template_directory'); ?>/library/docs/2014 2014 ideas and vocabulary.xlsx">2014</a></li>
 									</ul>
 									<div class="clearfix"></div>
 								</div>
@@ -139,10 +138,16 @@
         { start: "#circle", end: "#epidemic", },
         { start: "#circle", end: "#emergency", },
         { start: "#circle", end: "#flood", },
-        { start: "#circle", end: "#year1990", },
-        { start: "#circle", end: "#year2000", },
-        { start: "#circle", end: "#year2005", },
+        { start: "#circle", end: "#experience", },
+        { start: "#circle", end: "#primary", },
+        { start: "#circle", end: "#year1990-99", },
+        { start: "#circle", end: "#year2000-2003", },
+        { start: "#circle", end: "#year2004-2006", },
+        { start: "#circle", end: "#year2007", },
+        { start: "#circle", end: "#year2008", },
+        { start: "#circle", end: "#year2009", },
         { start: "#circle", end: "#year2010", },
+        { start: "#circle", end: "#year2011", },
         { start: "#circle", end: "#year2012", },
         { start: "#circle", end: "#year2013", },
         { start: "#circle", end: "#year2014", }
