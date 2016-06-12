@@ -208,9 +208,11 @@ jQuery(document).ready(function($) {
 
       if (gridObj.gridFilter == '.dimension') {
 
-        // console.log('first-dimension');
-        $('.tier2-dimension').fadeIn(200);
+        console.log('first-dimension');
+        //$('.tier2-dimension').fadeIn(200);
         $('#btn-dimension').addClass('is-checked');
+        $('.grid').show();
+        $grid.isotope({ filter: gridObj.gridFilter});
 
       } else if (gridObj.gridFilter == '.time') {
 
@@ -260,6 +262,9 @@ jQuery(document).ready(function($) {
         setTimeout(function() {
           $('.tier2-dimension').fadeIn(200);
           clickedEl.addClass('is-checked');
+
+          $('.grid').show();
+          $grid.isotope({ filter: gridObj.gridFilter});
         }, 200);
       }
 

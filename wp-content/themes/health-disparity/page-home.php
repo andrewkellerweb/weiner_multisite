@@ -56,12 +56,12 @@
                 </div>
               </div>
               <div class="tier2">
-                <div class="container-filter tier2-dimension">
+                <!--<div class="container-filter tier2-dimension">
                   <div class="button-group js-radio-button-group" data-filter-group="dimension-select">
                     <button class="button" id="btn-disparity" data-filter=".disparity">Disparity</button>
                     <button class="button" id="btn-lgbt" data-filter=".lgbt">LGBT</button>
                   </div>
-                </div>
+                </div>-->
 
                 <div class="container-filter tier2-time">
                   <div class="button-group js-radio-button-group" data-filter-group="time-select">
@@ -82,28 +82,27 @@
 
             <div class="grid">
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/1 Age Dimension.xlsx" class="icon-doc">Age</a></div>
+              <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/A1 Bisexual Dimension.xlsx" class="icon-doc">Bisexual</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/2A Disease Dimension -- Adipose to Malignant.xlsx" class="icon-doc">Disease: Adipose - Malignant</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/2B Disease Dimension - Health.xlsx" class="icon-doc">Disease: Health</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/2C Disease Dimension - Mental - Tumor.xlsx" class="icon-doc">Disease: Mental - Tumor</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/3 Disparity Dimension.xlsx" class="icon-doc">Disparity</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/4A Ethnic Dimension Alaskan - Ethnic.xlsx" class="icon-doc">Ethnic: Alaskan - Ethnic</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/4B Ethnic Dimension Europe - Transcultural.xlsx" class="icon-doc">Ethnic: Europe - Transcultural</a></div>
+              <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/B2 Gay Dimension.xlsx" class="icon-doc">Gay</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/5 Gender Dimension.xlsx" class="icon-doc">Gender</a></div>
+              <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/C3 Heterosexual Dimension.xlsx" class="icon-doc">Heterosexual</a></div>
+              <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/D4 Lesbian Dimension.xlsx" class="icon-doc">Lesbian</a></div>
+              <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/E5 LGBT Dimension.xlsx" class="icon-doc">LGBT</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/6A Race Dimension Aboriginal - Race.xlsx" class="icon-doc">Race: Aboriginal - Race</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/6B Race Dimension Racial - White.xlsx" class="icon-doc">Race: Racial - White</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/7 Sex Dimension.xlsx" class="icon-doc">Sex</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/8A Socioeconomic Dimension -- Cultural - Minorities.xlsx" class="icon-doc">Socioeconomic: Cultural - Minorities</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/8B Socioeconomic Dimension -- Minority - SES .xlsx" class="icon-doc">Socioeconomic: Minority - SES</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/8C Socioeconomic Dimension -- Social - Workplace.xlsx" class="icon-doc">Socioeconomic: Social - Workplace</a></div>
+              <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/F6 Transgender Dimension.xlsx" class="icon-doc">Transgender</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/9A Treatment Dimension -- Abortion - Contraception.xlsx" class="icon-doc">Treatment: Abortion - Contraception</a></div>
               <div class="filter-item dimension disparity"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/9B Treatment Dimension --Coping - Vaccine.xlsx" class="icon-doc">Treatment: Coping - Vaccine</a></div>
-
-              <div class="filter-item dimension lgbt"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/A1 Bisexual Dimension.xlsx" class="icon-doc">Bisexual</a></div>
-              <div class="filter-item dimension lgbt"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/B2 Gay Dimension.xlsx" class="icon-doc">Gay</a></div>
-              <div class="filter-item dimension lgbt"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/C3 Heterosexual Dimension.xlsx" class="icon-doc">Heterosexual</a></div>
-              <div class="filter-item dimension lgbt"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/D4 Lesbian Dimension.xlsx" class="icon-doc">Lesbian</a></div>
-              <div class="filter-item dimension lgbt"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/E5 LGBT Dimension.xlsx" class="icon-doc">LGBT</a></div>
-              <div class="filter-item dimension lgbt"><a href="<?php bloginfo('template_directory'); ?>/library/docs/disparity/F6 Transgender Dimension.xlsx" class="icon-doc">Transgender</a></div>
 
               <div class="filter-item time time-1990-2015"><a href="<?php bloginfo('template_directory'); ?>/library/docs/0-Disparity-Vocabulary.xlsx" class="icon-doc">Disparity - Vocabulary</a></div>
               <div class="filter-item time time-1990-1999"><a href="<?php bloginfo('template_directory'); ?>/library/docs/1 1990 disparity ideas Aboriginal-Workplace.xlsx" class="icon-doc">Aboriginal - Workplace</a></div>

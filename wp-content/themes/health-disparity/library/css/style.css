@@ -1421,12 +1421,16 @@ POSTS & CONTENT STYLES
   border-bottom: 4px solid #dbd1c7;
 }
 
-#content ul {
+#content ol, #content ul {
   padding-left: 30px;
 }
 
-#content li {
+#content ul li {
   list-style-type: disc;
+}
+
+#content ol li {
+  list-style-type: decimal;
 }
 
 .hentry header {

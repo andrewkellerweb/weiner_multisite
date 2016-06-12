@@ -326,12 +326,16 @@ POSTS & CONTENT STYLES
 		border-bottom: 4px solid $light-beige2;
 	}
 
-	ul {
+	ol, ul {
 		padding-left: 30px;
 	}
 
-	li {
+	ul li {
 		list-style-type: disc;
+	}
+
+	ol li {
+		list-style-type: decimal;
 	}
 }
 		.hentry {
