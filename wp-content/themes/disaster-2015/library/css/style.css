@@ -372,7 +372,8 @@ select {
  *    `input` and others.
  */
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
@@ -1003,10 +1004,7 @@ and it will create a button dependant on those variables.
   background-color: #2980b9;
 }
 
-.blue-btn:hover,
-.comment-reply-link:hover,
-#submit:hover,
-.blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+.blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
   background-color: #2574a8;
 }
 
@@ -1070,8 +1068,7 @@ textarea,
   transition: background-color 0.24s ease-in-out;
 }
 
-input[type="text"]:focus,
-input[type="text"]:active,
+input[type="text"]:focus, input[type="text"]:active,
 input[type="password"]:focus,
 input[type="password"]:active,
 input[type="datetime"]:focus,
@@ -1108,8 +1105,7 @@ textarea:active,
   outline: none;
 }
 
-input[type="text"].error,
-input[type="text"].is-invalid,
+input[type="text"].error, input[type="text"].is-invalid,
 input[type="password"].error,
 input[type="password"].is-invalid,
 input[type="datetime"].error,
@@ -1151,8 +1147,7 @@ textarea.is-invalid,
   outline-color: #fbe3e4;
 }
 
-input[type="text"].success,
-input[type="text"].is-valid,
+input[type="text"].success, input[type="text"].is-valid,
 input[type="password"].success,
 input[type="password"].is-valid,
 input[type="datetime"].success,
@@ -1194,8 +1189,7 @@ textarea.is-valid,
   outline-color: #e6efc2;
 }
 
-input[type="text"][disabled],
-input[type="text"].is-disabled,
+input[type="text"][disabled], input[type="text"].is-disabled,
 input[type="password"][disabled],
 input[type="password"].is-disabled,
 input[type="datetime"][disabled],
@@ -1233,10 +1227,7 @@ textarea.is-disabled,
   opacity: 0.6;
 }
 
-input[type="text"][disabled]:focus,
-input[type="text"][disabled]:active,
-input[type="text"].is-disabled:focus,
-input[type="text"].is-disabled:active,
+input[type="text"][disabled]:focus, input[type="text"][disabled]:active, input[type="text"].is-disabled:focus, input[type="text"].is-disabled:active,
 input[type="password"][disabled]:focus,
 input[type="password"][disabled]:active,
 input[type="password"].is-disabled:focus,
@@ -2258,19 +2249,23 @@ FOOTER STYLES
     top: 437px;
   }
   .main-list #year2012 {
-    left: 73%;
+    left: 75%;
     top: 500px;
   }
   .main-list #year2013 {
-    left: 65%;
+    left: 71%;
     top: 553px;
   }
   .main-list #year2014 {
-    left: 56%;
+    left: 62%;
     top: 569px;
   }
   .main-list #year2015 {
-    left: 47%;
+    left: 53%;
+    top: 579px;
+  }
+  .main-list #year2016 {
+    left: 44%;
     top: 579px;
   }
 }
@@ -2620,12 +2615,68 @@ be seen on the Desktop.
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 *********************/
+@media only screen and (min-width: 1240px) {
+  /******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Super Large Monitor Stylesheet
+
+You can add some advanced styles here if you like. This kicks in
+on larger screens.
+
+******************************************************************/
+}
+
 /*********************
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with
 other displays with a 2x resolution. You can also create a media
 query for retina AND a certain size if you want. Go Nuts.
 *********************/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Retina Screens & Devices Stylesheet
+
+When handling retina screens you need to make adjustments, especially
+if you're not using font icons. Here you can add them in one neat
+place.
+
+******************************************************************/
+  /* 
+
+EXAMPLE 
+Let's say you have an image and you need to make sure it looks ok
+on retina screens. Let's say we have an icon which dimension are
+24px x 24px. In your regular stylesheets, it would look something
+like this:
+
+.icon {
+	width: 24px;
+	height: 24px;
+	background: url(img/test.png) no-repeat;
+}
+
+For retina screens, we have to make some adjustments, so that image
+doesn't look blurry. So, taking into account the image above and the
+dimensions, this is what we would put in our retina stylesheet:
+
+.icon {
+	background: url(img/test@2x.png) no-repeat;
+	background-size: 24px 24px;
+}
+
+So, you would create the same icon, but at double the resolution, meaning 
+it would be 48px x 48px. You'd name it the same, but with a @2x at the end
+(this is pretty standard practice). Set the background image so it matches
+the original dimensions and you are good to go. 
+
+*/
+}
+
 /*********************
 PRINT STYLESHEET
 Feel free to customize this. Remember to add things that won't make
