@@ -1,0 +1,105 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 4px;
+  margin-left: 10px;
+  text-decoration: none;
+
+  &:hover &, &:focus &{
+    &__content {
+      opacity: 1;
+      z-index: 1;
+      transition: opacity 0.5s, z-index 0s 0s;
+    }
+
+    &__icon {
+      background-color: $maroon-medium1;
+    }
+  }
+
+  &__icon {
+    color: $white;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    padding: 9px;
+    background-color: $maroon-light1;
+    transition: background-color 0.2s;
+  }
+
+  &__content {
+    color: $white;
+    font-family: $font-display;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.7;
+    background-color: $maroon-light1;
+    padding: 25px;
+    position: absolute;
+    z-index: -1;
+    bottom: 52px;
+    width: 300px;
+    opacity: 0;
+    transition: opacity 0.5s, z-index 0s 0.5s;
+
+    @include bp(md) {
+      width: 500px;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -19px;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid $maroon-light1;
+    }
+
+    &.-ebook {
+      left: -96px;
+
+      @include bp(md) {
+        left: 0;
+      }
+
+      &:before {
+        left: 78px;
+
+        @include bp(md) {
+          left: 0;
+          border-left: 0 solid transparent;
+          border-right: 20px solid transparent;
+        }
+      }
+    }
+
+    &.-idea {
+      right: -101px;
+
+      @include bp(md) {
+        right: 0;
+      }
+
+      &:before {
+        right: 82px;
+
+        @include bp(md) {
+          right: 0;
+          border-left: 20px solid transparent;
+          border-right: 0 solid transparent;
+        }
+      }
+    }
+  }
+
+  p {
+    margin-top: 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

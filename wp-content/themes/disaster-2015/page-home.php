@@ -67,18 +67,17 @@
 
 								<div class="list">
 									<ul class="main-list col1" >
-										<li id="earthquake"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Earthquake Ideas.xlsx">Earthquake</a></li>
-										<li id="drought"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Drought Ideas.xlsx">Drought</a></li>
-										<li id="disaster"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Disaster Ideas.xlsx">Disaster</a></li>
-										<li id="experience"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Experience Ideas.xlsx">Experience</a></li>
-										<li id="tsunami"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Tsunamis Ideas.xlsx">Tsunami</a></li>
-										<li id="tornado"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Tornado Ideas.xlsx">Tornado</a></li>
-										<li id="terror"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Terror Ideas.xlsx">Terror</a></li>
-										<li id="hurricane"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Hurricane Ideas.xlsx">Hurricane</a></li>
-										<li id="flood"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Flood Ideas Vocabulary.xlsx">Flood</a></li>
-										<li id="epidemic"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Epidemic Pandemic Ideas.xlsx">Epidemic/Pandemic</a></li>
-										<li id="emergency"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Emergency Ideas.xlsx">Emergency</a></li>
-										<li id="primary"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2016 1990-2016 Primary Vocabulary.xlsx">Primary Vocabulary</a></li>
+										<li id="earthquake"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 earthquake ideas.xlsx">Earthquake</a></li>
+										<li id="drought"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Drought Ideas.xlsx">Drought</a></li>
+										<li id="disaster"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Disaster Ideas.xlsx">Disaster</a></li>
+										<li id="tsunami"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Tsunamis Ideas.xlsx">Tsunami</a></li>
+										<li id="tornado"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Tornado Ideas.xlsx">Tornado</a></li>
+										<li id="terror"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Terror Ideas.xlsx">Terror</a></li>
+										<li id="hurricane"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Hurricane Ideas.xlsx">Hurricane</a></li>
+										<li id="flood"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Flood Ideas.xlsx">Flood</a></li>
+										<li id="epidemic"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Epidemic- Pandemic Ideas.xlsx">Epidemic/Pandemic</a></li>
+										<li id="emergency"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Emergency Ideas.xlsx">Emergency</a></li>
+										<li id="primary"><a class="type" href="<?php bloginfo('template_directory'); ?>/library/docs/2017 1990-2017 Primary Vocabulary.xlsx">Primary Vocabulary</a></li>
 									</ul>
 
 									<ul class="main-list col2" >
@@ -103,13 +102,14 @@
 						<div class="content">
 							<h3>eBook</h3>
 							<ul class="ebook-list">
-								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/0 Preface.docx" class="icon-doc">Preface</a></li>
-								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/1 Learning.docx" class="icon-doc">Learning</a></li>
-								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/2 Literature Analysis.docx" class="icon-doc">Literature Analysis</a></li>
-								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/3 Critical Thinking.docx" class="icon-doc">Critical Thinking</a></li>
-								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/4 Integrating Subjects.docx" class="icon-doc">Integrating Subjects </a></li>
+								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/Disaster Preface.docx" class="icon-doc">Preface</a></li>
+								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/Disaster Chapter 1 Ideas.docx" class="icon-doc">Ideas</a></li>
+								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/Disaster Chapter 2 Prevention Ideas.docx" class="icon-doc">Prevention Ideas</a></li>
+								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/Chapter 3 Mitigation Ideas 1990-2016.docx" class="icon-doc">Mitigation Ideas</a></li>
+								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/Chapter 4 Rehabilitation Ideas.docx" class="icon-doc">Rehabilitation Ideas</a></li>
 								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/5 Unanswered Questions.docx" class="icon-doc">Unanswered Questions</a></li>
-								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/6 Research.docx" class="icon-doc">Research</a></li>
+								<li><a href="<?php bloginfo('template_directory'); ?>/library/docs/Chapter 6 Other Ideas of Possible importance.docx" class="icon-doc">Other Ideas of Possible importance</a></li>
+                <li><a href="<?php bloginfo('template_directory'); ?>/library/docs/Selected Readings.docx" class="icon-doc">Selected Readings</a></li>
 							</ul>
 						</div>
 					</main>
@@ -140,7 +140,6 @@
         { start: "#circle", end: "#epidemic", },
         { start: "#circle", end: "#emergency", },
         { start: "#circle", end: "#flood", },
-        { start: "#circle", end: "#experience", },
         { start: "#circle", end: "#primary", },
         { start: "#circle", end: "#year1990-99", },
         { start: "#circle", end: "#year2000-2003", },

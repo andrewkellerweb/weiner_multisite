@@ -1,0 +1,20 @@
+.page-top {
+
+  &__stage {
+    background: url('../images/bg-circuitboard.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 30px;
+  }
+
+  &__boundary {
+    color: $blue-lightest1;
+    max-width: 700px;
+    margin: 0 auto;
+
+    p {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.page-main {
+
+  &__stage {
+    border-top: 5px solid $blue-light1;
+    padding: 30px;
+  }
+
+  &__boundary {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  &__summary {
+    margin-bottom: 50px;
+  }
+
+  &__lists {
+
+    @include clearfix;
+  }
+
+  &__list-ebook {
+
+    @include bp(md) {
+      float: left;
+      width: 55%;
+      padding-right: 20px;
+    }
+  }
+
+  &__list-idea {
+
+    @include bp(md) {
+      float: left;
+      width: 45%;
+    }
+  }
+}

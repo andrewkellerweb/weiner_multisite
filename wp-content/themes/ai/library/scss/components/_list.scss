@@ -1,0 +1,50 @@
+.list {
+
+  &__title {
+    font-size: 1.5rem;
+    font-family: $font-header;
+    color: $blue-dark1;
+    font-weight: $font-weight-bold;
+  }
+
+  &__items {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+  }
+
+  &__link {
+    font-size: 1.25rem;
+    font-family: $font-header;
+    color: $maroon-medium1;
+    text-decoration: none;
+    padding: 4px 0;
+    display: block;
+
+    &:hover, &:focus {
+      color: $maroon-light1;
+    }
+  }
+
+  &__set {
+
+    @include clearfix;
+    margin-bottom: 20px;
+
+    &__title {
+      font-size: 1.25rem;
+      float: left;
+      padding-right: 15px;
+      line-height: 2;
+    }
+
+    &__items {
+      float: left;
+      border-left: 5px solid $maroon-medium1;
+      padding-left: 15px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.footer {
+
+  &__stage {
+    border-top: 5px solid $blue-light1;
+    padding: 30px;
+  }
+
+  &__boundary {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &__contact {
+
+    @include bp(md) {
+      float: left;
+      width: 60%;
+    }
+  }
+
+  &__recognition {
+
+    @include bp(md) {
+      float: left;
+      padding-left: 20px;
+      width: 40%;
+    }
+  }
+}

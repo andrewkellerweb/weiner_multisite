@@ -1,0 +1,47 @@
+{
+  "name": "weiner_ai",
+  "description": "Artificial Intelligence",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "babel-preset-latest": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "browserify-shim": "^3.8.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^2.0.3",
+    "gulp-sass-bulk-import": "^1.0.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "^1.7.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "default": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  }
+}
